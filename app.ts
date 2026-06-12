@@ -68,4 +68,26 @@ let counter: number = 0;
 let x: number = 100;
 let y: number = 100;
 let octal: number = 0o10;
-console.log(octal);
+
+
+let firstname:string = `Aditya`;
+let title: string = `Web Developer`;
+let profile: string = `I'm ${firstname}.
+I'm a ${title}`;
+// console.log(profile);
+
+
+  // Not operator 
+  const nigga: boolean=true;
+  const notNigga = !nigga;
+  console.log(notNigga);
+
+  //And operator
+
+  const whore: boolean = true;
+  const aman: boolean = false;
+  console.log(whore&&aman);
+
+  //OR operator
+
+  console.log(whore||aman);
